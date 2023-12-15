@@ -1,0 +1,148 @@
+.list{
+display:flex; 
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.infodetail{
+display: flex;
+width: 680px;
+}
+.item_name{
+font-family: Inria Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+margin-top:50px;
+text-align:center;
+width:400px;
+}
+.jspOption{
+color: #8D8D8D;
+font-family: Inria Sans;
+font-size: 15px;
+font-weight: 300;
+}
+.item_price{
+width: 300px;
+margin-top: 80px;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+text-align:center;
+}
+
+.order_quantity{
+width: 200px;
+margin-top: 60px;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+
+.container{
+display: flex;
+}
+.info{
+width: 680px;
+text-align: center;
+font-size: 25px;
+font-weight: 300;
+}
+.price{
+width: 300px;
+text-align:center;
+font-size: 25px;
+font-weight: 200;
+}
+.number{
+width: 300px;
+text-align:center;
+font-size: 25px;
+font-weight: 200;
+}
+.num{
+width: 300px;
+margin-top: 80px;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+.delete{
+width: 200px;
+text-align:center;
+font-size: 25px;
+font-weight: 200;
+}
+.cart{
+margin-top: 90px;
+text-align:center;
+width:200px;
+}
+.cart button{
+background-color:white;
+border: white;
+}
+.cart button i{
+margin:0 auto;
+}
+.total{
+text-align:center;
+width: 400px;
+font-size: 30px;
+font-weight: 700;
+}
+.total p{
+color: #FF1212;
+font-size: 15px;
+font-weight: 300;
+}
+.hap{
+font-size: 25px;
+font-weight: 500;
+width: 400px;
+text-align:center;
+}
+.payment{
+width: 234px;
+height: 50px;
+background-color: black;
+color: white;
+font-size: 20px;
+font-weight: 400;
+border-radius: 10px;
+}
+.title{
+margin-left: 110px;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+}
+.text{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+}
+.box{
+width: 200px;
+height: 30px;
+border-radius: 10px;
+border: 1px solid #8D8D8D;
+margin-top:7px;
+}
+.button{
+width: 120px;
+height: 30px;
+background-color: black;
+color: white;
+}
+.buttonpay{
+width: 300px;
+height: 40px;
+background: #000;
+color: white;
+}
