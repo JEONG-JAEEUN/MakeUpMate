@@ -1,0 +1,23 @@
+#submit {
+  width: 370px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  cursor: pointer;
+  margin: 7px 0;
+  color: white;
+}
+.overlap{
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	}
+.content{
+	margin-top: 150px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
