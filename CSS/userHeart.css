@@ -1,0 +1,63 @@
+.container{
+display: flex;
+}
+.info{
+width: 680px;
+text-align: center;
+font-size: 25px;
+font-weight: 500;
+}
+.price{
+width: 300px;
+text-align:center;
+font-size: 25px;
+font-weight: 500;
+}
+.delete{
+width: 300px;
+text-align:center;
+font-size: 25px;
+font-weight: 500;
+}
+
+.list{
+
+display:flex; 
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.infodetail{
+width: 680px;
+text-align: center;
+display: flex;
+}
+.item_name{
+
+margin-top: 60px;
+font-family: Inria Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+}
+.item_price{
+width: 300px;
+margin-top: 80px;
+text-align:center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+.heart{
+width:300px;
+margin-top: 90px;
+text-align:center;
+}
+.heart button{
+background-color:white;
+border: white;
+}
+.heart button i{
+margin:0 auto;
+}
