@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <title>MakeUpMate</title>
+	<!-- main -->
+	  <link rel="stylesheet" href="./CSS/main.css">
+      <script type='text/javascript' src="./JS/main.js"></script>
+	  <style>
+    #carousel-container {
+    width: 1280px;
+    height: 660px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #image-slider {
+    width: 3840px; /* 각 이미지의 너비(1280 * 3) */
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-image {
+    width: 1280px;
+    height: 660px;
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+  }
+  
+  #prev-btn {
+    left: 10px;
+  }
+  
+  #next-btn {
+    right: 10px;
+  }
+  
+  </style>
+  </head>
+
+  <body>
+  <div style="margin:0 auto; width:1280px;">
+		<div>
+        <table style="font-size: 60px; text-align: center;">
+            <tr>
+            <td><img src="./IMG/main1.png" width="650" height="597"></td>
+            <td class="main" style="text-align:center;">
+                
+             <p>EXPRESS <br>
+                 YOUR SIGNATURE</p>
+                <p style="color: #FF0000;">AURA</p> 
+
+			</td>
+            </tr>
+        </table>
+        </div>
+        
+		 <!-- 케러셀 -->
+
+<div id="carousel-container">
+    <div id="image-slider">
+      <img class="carousel-image" src="./IMG/main2-1.png" alt="이미지1">
+      <img class="carousel-image" src="./IMG/main2-2.png" alt="이미지2">
+      <img class="carousel-image" src="./IMG/main2-3.png" alt="이미지3">
+    </div>
+    <button class="slider-btn" id="prev-btn">&#10094;</button>
+    <button class="slider-btn" id="next-btn">&#10095;</button>
+  </div>
+
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.carousel-image');
+    const totalSlides = slides.length;
+    let intervalId;
+
+    function showSlide(index) {
+      if (index < 0) {
+        currentIndex = totalSlides - 1;
+      } else if (index >= totalSlides) {
+        currentIndex = 0;
+      }
+
+      const offset = currentIndex * 1280;
+      document.getElementById('image-slider').style.transform = `translateX(-${offset}px)`;
+    }
+
+    function startSlideShow() {
+      intervalId = setInterval(() => {
+        currentIndex++;
+        showSlide(currentIndex);
+      }, 3000); // 3초마다 변경 (1000 = 1초)
+    }
+
+    function stopSlideShow() {
+      clearInterval(intervalId);
+    }
+
+    document.getElementById('prev-btn').addEventListener('click', () => {
+      currentIndex--;
+      showSlide(currentIndex);
+      stopSlideShow(); // 사용자가 버튼을 클릭하면 자동 전환 중지
+    });
+
+    document.getElementById('next-btn').addEventListener('click', () => {
+      currentIndex++;
+      showSlide(currentIndex);
+      stopSlideShow(); // 사용자가 버튼을 클릭하면 자동 전환 중지
+    });
+
+    startSlideShow(); // 페이지 로딩 후 자동으로 시작
+  </script>
+
+        <br><br><br><br><br><br><br><br><br>
+        <div style="text-align:center">
+            <img src="./IMG/main3.png"/>
+        </div>
+        <div style="text-align:center">
+            <img src="./IMG/main4.png"/>
+            <br><br><br><br><br><br><br><br><br>
+            <img src="./IMG/main5.png"/>
+            <br><br><br><br><br><br><br><br><br>
+            <img src="./IMG/main6.png"/>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="collection" id="collection">
+            <div class="min">All Featured Products</div>
+            <div class="max">Complete your season <br>
+              perfume collection</div>
+            <div class="pic3">
+              <img src="./IMG/spring.png">
+              <img src="./IMG/summer.png">
+              <img src="./IMG/fall.png">
+              <img src="./IMG/winter.png">
+            </div>
+          </div>
+          <br><br><br><br><br><br><br><br><br>
+          <div style="text-align: center;">
+          <h1 style="font-size: 50px;">How To Use</h2>
+            <img src="./IMG/main7.png"/>
+          </div>
+		 </div>
+  </body>
+  </html>
