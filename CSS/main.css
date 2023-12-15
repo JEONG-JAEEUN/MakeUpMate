@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+*{
+    font-family: 'DM Serif Display', serif;
+}
+.main{
+    font-weight: 900;
+    line-height: 70px;
+	font-weight: 400;
+}
+
+
+#collection{
+    height: 700px;
+    width: auto;
+    background-color: #E3212F;
+    font-weight: 900;
+  }
+  
+  /* collection */
+  .min{
+    position: relative;
+    left: 100px;
+    top:120px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+  .max{
+    position: relative;
+    left:90px;
+    top: 130px;
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 65px;
+  }
+
+  .collection .pic3{
+    text-align: center;
+    margin-top: 310px;
+  }
+  .collection .pic3 img{
+    width: 16%;
+  }
+  .collection .pic3 img:hover{
+    transform: scale(1.1);
+  }
+
+
+/* 케러셀 */
+
+ #carousel-container {
+    width: 1280px;
+    height: 660px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #image-slider {
+    width: 3840px; /* 각 이미지의 너비(1280 * 3) */
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-image {
+    width: 1280px;
+    height: 660px;
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+  }
+  
+  #prev-btn {
+    left: 10px;
+  }
+  
+  #next-btn {
+    right: 10px;
+  }
