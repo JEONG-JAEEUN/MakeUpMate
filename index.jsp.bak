@@ -138,7 +138,7 @@ if (id == null || session.getAttribute("sid") == null) {
             // 헤더, 콘텐츠, 푸터의 높이 합
             const headerHeight = document.querySelector("header").offsetHeight;
             const contentHeight = iframe.contentWindow.document.body.scrollHeight;
-            const footerHeight = document.querySelector("footer").offsetHeight;
+            const footerHeight = document.querySelector(".footer").offsetHeight;
             const totalHeight = headerHeight + contentHeight + footerHeight;
 
             // 사용자의 화면 세로 높이
@@ -146,10 +146,10 @@ if (id == null || session.getAttribute("sid") == null) {
 
             // 토탈 높이가 창 높이보다 작으면 푸터를 아래에 고정
             if (totalHeight < windowHeight) {
-                document.querySelector("footer").style.position = "fixed";
-				document.querySelector("footer").style.bottom=0;
+                document.querySelector(".footer").style.position = "fixed";
+				document.querySelector(".footer").style.bottom=0;
             } else {
-                document.querySelector("footer").style.position = "static";
+                document.querySelector(".footer").style.position = "static";
             }
         }
 
