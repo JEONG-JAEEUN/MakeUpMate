@@ -1,0 +1,44 @@
+.deletetitle{
+font-size:36px;
+}
+.deletemiddle{
+font-size:34px;
+}
+.deletebottom{
+font-size:20px;
+}
+.deletepw{
+border-radius: 10px;
+border: 1px solid #8D8D8D;
+font-family: Roboto;
+}
+.deletebutton{
+width: 400px;
+height:60px;
+background-color: #000;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+}
+.gotohome{
+text-align:center;
+width: 149px;
+height: 50px;
+background: #000;
+color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+}
+.input{
+border: 1px solid #8D8D8D;
+width: 400px;
+height: 50px;
+}
+.button{
+width: 400px;
+height: 60px;
+background: black;
+color: white;
+font-size: 24px
+font-family: Roboto;
+}
