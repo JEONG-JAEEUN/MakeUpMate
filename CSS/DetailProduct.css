@@ -1,0 +1,191 @@
+#productWrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#category {
+  margin: 30px;
+}
+#imgflex {
+  display: flex;
+  justify-content: space-between;
+}
+.mainImg {
+  width: 600px;
+}
+#detailContent {
+  width: 600px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#btnFlex {
+  display: flex;
+  justify-content: space-between;
+}
+#btnFlex2 {
+  width: 1280px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#btnFlex2 button {
+  width: 3333%;
+  padding: 7px 0;
+  font-size: 15px;
+  font-weight: bold;
+  cursor:pointer;
+}
+#detailBtn {
+  background-color: black;
+  color: white;
+}
+.contentBtn {
+  background-color: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+.incart {
+  width: 300px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid black;
+  margin: 7px 0;
+  box-sizing: border-box;
+}
+.direct {
+  width: 300px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  cursor: pointer;
+  margin: 7px 0;
+}
+.incart a {
+  color: black;
+}
+.direct a {
+  color: white;
+}
+#productName,
+#price {
+  font-size: 35px;
+}
+#price {
+  font-weight: bold;
+}
+#priceFlex {
+  display: flex;
+  align-items: flex-end;
+}
+#sale {
+  font-size: 25px;
+  margin-left: 10px;
+  color: gray;
+}
+#heartWrap {
+  display: flex;
+  flex-direction: column;
+}
+#titleFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.heart {
+  font-size: 30px;
+}
+#heartNum {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#updown {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 30px;
+}
+#updown input {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.qty {
+  font-size: 25px;
+}
+.qtyAndUpDown {
+  display: flex;
+  margin-top: 10px;
+}
+.qtyAndUpDown input {
+  height: 35px;
+  text-align: center;
+  font-size: 25px;
+  padding: 0 10px;
+}
+#colorStockSelect {
+  font-size: 20px;
+}
+#itemSelect {
+  width: 400px;
+  height: 35px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.detailImg {
+  width: 1280px;
+  margin: 0 auto;
+}
+.detailImg img {
+  width: 1280px;
+}
+#content2,
+#content3 {
+  width: 1280px;
+  margin: 0 auto;
+}
+#reviewFlex {
+  display: flex;
+  justify-content: space-between;
+}
+#reviewInput {
+  width: 1150px;
+  font-size: 15px;
+  border-radius: 10px;
+    padding: 10px;
+}
+.insert {
+  width: 100px;
+  background-color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 10px;
+}
+.insert a {
+  color: white;
+}
+#content2 table {
+  margin: 40px 0;
+}
+#content3Content {
+  background-color: #d8d8d8;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 50px 0;
+}
